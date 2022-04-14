@@ -168,7 +168,7 @@ include_directories(${PROJECT_SOURCE_DIR}/src/neat)
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_20)
 
 # Install neatpp
-install(TARGETS ${PROJECT_NAME} DESTINATION src/neat
-        LIBRARY DESTINATION lib
-        RUNTIME DESTINATION bin
-)
+# install(TARGETS ${PROJECT_NAME} DESTINATION src/neat
+#         LIBRARY DESTINATION lib
+#         RUNTIME DESTINATION bin
+# )
